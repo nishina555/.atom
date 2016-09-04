@@ -1,0 +1,17 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "bc7cf122-aaf7-4e95-a45c-de81e2f7d6c6"
+  core:
+    autoHideMenuBar: true
+  editor:
+    fontSize: 15
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "87150aca-03f6-faac-befe-ca1a27b7523c"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
