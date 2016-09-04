@@ -4,7 +4,7 @@ color-picker@2.1.1
 editorconfig@1.2.4
 file-icons@1.6.14
 highlight-column@0.5.1
-minimap@4.19.0
+minimap@4.24.7
 symbols-tree-view@0.11.0
 term3@0.21.2
 
