@@ -9,7 +9,7 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-    tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "87150aca-03f6-faac-befe-ca1a27b7523c"
   "tree-view": {}
