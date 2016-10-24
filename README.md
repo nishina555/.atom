@@ -22,3 +22,6 @@ apm install --packages-file packages.txt
 - 全ての行末に文字を挿入する(正規表現にチェックをつける)
     - 置換前: $
     - 置換後: XXXX
+- 行削除
+    - 置換前: ^\n
+    - 置換後: 空白
