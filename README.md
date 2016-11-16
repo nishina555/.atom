@@ -15,6 +15,7 @@ apm install --packages-file packages.txt
 - プロジェクト内のファイル検索: ctrl + shift + f
 - ファイルの検索: ctrl + t
 - ディレクトリ画面のトグル操作: ctrl + \
+- ターミナルを新しいタブで起動(packages -> tearm3): ctrl + alt + T
 
 ### replace
 - 全ての行頭に文字を挿入する(正規表現にチェックをつける)
