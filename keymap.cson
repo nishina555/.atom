@@ -33,6 +33,7 @@
 
 
 'body':
+  'cmd-s \\': 'pane:split-right'
   'ctrl-s \\': 'pane:split-right'
   'ctrl-s -': 'pane:split-down'
   'ctrl-s k': 'pane:split-up'
