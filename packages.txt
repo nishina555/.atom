@@ -9,6 +9,7 @@ file-icons@1.6.14
 git-plus@5.29.0
 highlight-column@0.5.1
 minimap@4.24.7
+platformio-ide-terminal@2.2.2
 symbols-tree-view@0.11.0
 term3@0.21.2
 
