@@ -1,12 +1,15 @@
 "*":
   "atom-beautify":
     _analyticsUserId: "bc7cf122-aaf7-4e95-a45c-de81e2f7d6c6"
-  "autocomplete-ruby": {}
+  "auto-encoding":
+    ignorePattern: "COMMIT_EDITMSG"
+  "autocomplete-ruby":
+    rsensePath: "/Users/nishina/.rbenv/versions/2.3.0/bin/rsense"
   core:
     autoHideMenuBar: true
     telemetryConsent: "no"
   editor:
-    fontSize: 13
+    fontSize: 12
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -14,8 +17,14 @@
     tabType: "soft"
   "exception-reporting":
     userId: "87150aca-03f6-faac-befe-ca1a27b7523c"
+  linter:
+    errorPanelHeight: 619
+  "linter-ruby": {}
   "markdown-preview":
     breakOnSingleNewline: true
+  "rubocop-auto-correct":
+    autoRun: true
+    correctFile: true
   "tree-view": {}
   welcome:
     showOnStartup: false

@@ -16,7 +16,7 @@ apm install --packages-file packages.txt
 - ファイルの検索: ctrl + t
 - ディレクトリ画面のトグル操作: ctrl + \
 - ターミナルを新しいタブで起動(packages -> tearm3): ctrl + alt + T
-- 矩形選択: 
+- 矩形選択:
   - ドラッグして行を選択 -> shift + alt + 矢印
   - shiftとctrlを両方押して矢印
 - ターミナル関係(platformio-ide-terminalを利用)
@@ -24,7 +24,11 @@ apm install --packages-file packages.txt
     - 新規作成 command + shift + t
     - 削除 ctrl + shift + x
     - 移動 command + shift + j(or k)
+### plugin
 - git-plus: Cmd-Shift-H
+- script: Cmd + i
+- atom-runner(scriptよりいいかも): ctrl + r
+- atom-beautify: ctrl + alt + b
 ### replace
 - 全ての行頭に文字を挿入する(正規表現にチェックをつける)
     - 置換前: ^(.)
