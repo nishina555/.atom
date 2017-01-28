@@ -22,7 +22,7 @@ apm install --packages-file packages.txt
 - ターミナル関係(platformio-ide-terminalを利用)
     - 起動 ctrl + `
     - 新規作成 command + shift + t
-    - 削除 ctrl + shift + x
+    - 削除 command + shift + x
     - 移動 command + shift + j(or k)
 ### plugin
 - git-plus: Cmd-Shift-H
