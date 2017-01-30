@@ -24,6 +24,15 @@ apm install --packages-file packages.txt
     - 新規作成 command + shift + t
     - 削除 command + shift + x
     - 移動 command + shift + j(or k)
+- フォルダーを開く: command + shift + o
+- 新規atomでフォルダーを開く: shift + o
+- ファイルを開く: command + o
+- ツリーviewのトグル: command + \
+- ツリーでの操作
+  - 新規ファイル作成: a
+  - ファイル名編集: m
+  - ファイル削除: deleteキー
+  - 新規フォルダ: shift + a
 ### plugin
 - git-plus: Cmd-Shift-H
 - script: Cmd + i

@@ -9,7 +9,6 @@
     autoHideMenuBar: true
     telemetryConsent: "no"
   editor:
-    fontSize: 12
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
