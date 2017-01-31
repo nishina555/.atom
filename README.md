@@ -33,6 +33,7 @@ apm install --packages-file packages.txt
   - ファイル名編集: m
   - ファイル削除: deleteキー
   - 新規フォルダ: shift + a
+  - コピー: d
 ### plugin
 - git-plus: Cmd-Shift-H
 - script: Cmd + i
