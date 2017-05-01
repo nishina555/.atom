@@ -61,3 +61,41 @@ apm install --packages-file packages.txt
 - 行削除
     - 置換前: ^\n
     - 置換後: 空白
+
+### autocomplete-rubyのrsenseのパスを設定する
+rsenseをrbenvにてインストールし、rsenseのパスを設定する。
+rbenvのrubyを使う理由は、デフォルトだとsudoじゃないとgemがインストールできないので。
+```
+$ gem install rsense
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+-> rbenvのrubyを使うようにする
+
+$ rbenv versions
+-> デフォルトでは以下のようになっている
+* system (set by /Users/toshiharu-nishina/.rbenv/version)
+  2.2
+  2.2.6
+  2.3.3
+  2.4
+  2.4.1
+$ rbenv global 2.3.3
+$ ruby --version
+->2.3.3 ならOK
+
+### もしrubyのバージョンがアップデートされないならrehashする
+$ rbenv rehash
+
+$ rbenv versions
+  system
+  2.2
+  2.2.6
+  2.3
+* 2.3.3 (set by /Users/toshiharu-nishina/.rbenv/version)
+$ gem install rsense
+-> インストールできるはず
+
+$ gem environment
+-> /Users/nishina/.rbenv/versions/2.3.0/bin/rsense
+のようなものを設定する
+```
