@@ -1,5 +1,17 @@
 # .atom
 
+## How to start
+すでにatomをインストールしており、ホームに.atomというディレクトリができている前提です。
+```
+cd ~
+mv .atom .atom_bk
+git clone https://github.com/nishina555/.atom
+cd ~/.atom_bk
+mv blob-store compile-cache packages recovery storage ~/.atom
+cd ~/.atom
+apm install --packages-file packages.txt
+```
+
 ## Create installed packages list
 ```
 apm list --installed --bare > packages.txt
