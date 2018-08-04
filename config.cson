@@ -1,33 +1,19 @@
 "*":
-  "atom-beautify":
-    general:
-      _analyticsUserId: "bc7cf122-aaf7-4e95-a45c-de81e2f7d6c6"
-  "auto-encoding":
-    ignorePattern: "COMMIT_EDITMSG"
   "autocomplete-ruby":
-    rsensePath: "~/.rbenv/versions/2.4.1/bin/rsense"
+    rsensePath: "/Users/toshiharu.nishina/.rbenv/shims/rsense"
   core:
-    autoHideMenuBar: true
-    telemetryConsent: "no"
-  editor:
-    fontSize: 13
-    invisibles: {}
-    showIndentGuide: true
-    showInvisibles: true
-    softWrap: true
-    tabType: "soft"
+    disabledPackages: [
+      "spell-check"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "ramda-syntax"
+    ]
+  editor: {}
   "exception-reporting":
-    userId: "87150aca-03f6-faac-befe-ca1a27b7523c"
-  linter: {}
-  "linter-eslint": {}
-  "linter-ruby": {}
-  "linter-ui-default":
-    showPanel: true
-  "markdown-preview":
-    breakOnSingleNewline: true
-  "rubocop-auto-correct":
-    autoRun: true
-    correctFile: true
-  "tree-view": {}
+    userId: "ed2b2b11-b505-40a8-beb2-603e01cc5341"
+  "linter-ui-default": {}
+  minimap: {}
   welcome:
     showOnStartup: false

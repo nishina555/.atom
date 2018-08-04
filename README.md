@@ -52,6 +52,9 @@ apm install --packages-file packages.txt
 - atom-runner(scriptよりいいかも): ctrl + r
 - atom-beautify: ctrl + alt + b
 ### replace
+- 全ての行頭に文字を追加する(正規表現にチェックをつける)
+    - 置換前: ^
+    - 置換後: XXXX
 - 全ての行頭に文字を挿入する(正規表現にチェックをつける)
     - 置換前: ^(.)
     - 置換後: XXXX $1

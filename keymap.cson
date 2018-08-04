@@ -42,6 +42,7 @@
   'ctrl-tab': 'pane:show-next-item'
   'ctrl-shift-tab ^ctrl': 'unset!'
   'ctrl-shift-tab': 'pane:show-previous-item'
+  'cmd-0': 'unset!'
 
 'atom-text-editor[data-grammar="source js jsx"]':
   'tab': 'emmet:expand-abbreviation-with-tab'
