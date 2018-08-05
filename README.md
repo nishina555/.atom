@@ -46,6 +46,8 @@ apm install --packages-file packages.txt
   - ファイル削除: deleteキー
   - 新規フォルダ: shift + a
   - コピー: d
+- ハイライト対象のファイル変更(Edit -> Select Grammer)
+  - ctrl + shift + L
 ### plugin
 - git-plus: Cmd-Shift-H
 - script: Cmd + i
