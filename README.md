@@ -29,8 +29,9 @@ apm install --packages-file packages.txt
 - ディレクトリ画面のトグル操作: ctrl + \
 - ターミナルを新しいタブで起動(packages -> tearm3): ctrl + alt + T
 - 矩形選択:
-  - ドラッグして行を選択 -> shift + alt + 矢印
-  - shiftとctrlを両方押して矢印
+  - #ドラッグして行を選択 -> shift + alt + 矢印
+  - #shiftとctrlを両方押して矢印
+  - alt押す -> ドラッグ
 - ターミナル関係(platformio-ide-terminalを利用)
     - 起動 ctrl + `
     - 新規作成 command + shift + t

@@ -13,7 +13,8 @@
   editor: {}
   "exception-reporting":
     userId: "ed2b2b11-b505-40a8-beb2-603e01cc5341"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   minimap: {}
   welcome:
     showOnStartup: false
