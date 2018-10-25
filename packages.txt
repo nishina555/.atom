@@ -1,6 +1,7 @@
 Sublime-Style-Column-Selection@1.7.4
 atom-beautify@0.32.5
 atom-runner@2.7.1
+atomic-emacs@0.12.1
 auto-encoding@0.7.1
 autocomplete-emojis@2.5.0
 autocomplete-paths@2.12.2
